@@ -1,7 +1,7 @@
 FROM node:11
 
 LABEL "com.github.actions.name"="Puppeteer"
-LABEL "com.github.actions.description"="Use the Headless Chrome Node API in your actions"
+LABEL "com.github.actions.description"="A GitHub Action for the Headless Chrome Node API"
 LABEL "com.github.actions.icon"="globe"
 LABEL "com.github.actions.color"="#01D59F"
 
