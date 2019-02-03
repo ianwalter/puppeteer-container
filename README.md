@@ -1,4 +1,5 @@
 # ianwalter/puppeteer
+> A GitHub Action for the Headless Chrome Node API
 
 ## About
 
