@@ -1,5 +1,14 @@
 FROM node:11
 
+LABEL "com.github.actions.name"="Puppeteer"
+LABEL "com.github.actions.description"="Use the Headless Chrome Node API in your actions"
+LABEL "com.github.actions.icon"="globe"
+LABEL "com.github.actions.color"="#01D59F"
+
+LABEL "repository"="http://github.com/ianwalter/puppeteer"
+LABEL "homepage"="http://github.com/ianwalter/puppeteer"
+LABEL "maintainer"="Ian Walter <public@iankwalter.com>"
+
 RUN  apt-get update \
      # See https://crbug.com/795759
      && apt-get install -yq libgconf-2-4 \

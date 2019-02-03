@@ -1,4 +1,4 @@
-# docker-puppeteer
+# ianwalter/puppeteer
 
 ## About
 
@@ -7,7 +7,7 @@ Forked from [buildkite/puppeteer][buildkiteUrl].
 ## Installation
 
 ```console
-docker pull ianwalter/puppeteer
+
 ```
 
 ## Usage
