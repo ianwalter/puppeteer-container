@@ -1,5 +1,5 @@
 # ianwalter/puppeteer
-> A GitHub Action for the Headless Chrome Node API
+> A GitHub Action / Docker image for Puppeteer, the Headless Chrome Node API
 
 ## About
 
@@ -15,6 +15,9 @@ Forked from [buildkite/puppeteer][buildkiteUrl].
 
 ## Related
 
+* **[@ianwalter/puppeteer-helper][puppeteerHelperUrl]** - An AVA helper that
+  makes a Puppeteer page available to a test
+
 ## License
 
 Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
@@ -24,4 +27,5 @@ Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
 Created by [Ian Walter](https://iankwalter.com)
 
 [buildkiteUrl]: https://github.com/buildkite/docker-puppeteer
+[puppeteerHelper]: https://github.com/ianwalter/puppeteer-helper
 [licenseUrl]: https://github.com/ianwalter/docker-puppeteer/blob/master/LICENSE

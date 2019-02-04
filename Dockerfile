@@ -1,7 +1,7 @@
 FROM node:11
 
 LABEL "com.github.actions.name"="Puppeteer"
-LABEL "com.github.actions.description"="A GitHub Action for the Headless Chrome Node API"
+LABEL "com.github.actions.description"="A GitHub Action / Docker image for Puppeteer, the Headless Chrome Node API"
 LABEL "com.github.actions.icon"="globe"
 LABEL "com.github.actions.color"="#01D59F"
 
@@ -21,6 +21,8 @@ RUN  apt-get update \
      && apt-get install -y google-chrome-unstable --no-install-recommends \
      && rm -rf /var/lib/apt/lists/*
 
-# Install Puppeteer under /node_modules so it's available system-wide
-ADD package.json package-lock.json /
-RUN npm install
+# When installing Puppeteer through npm, instruct it to not download Chromium.
+# Puppeteer will need to be launched with:
+#   browser.launch({ executablePath: 'google-chrome-unstable' })
+# This is done by default in @ianwalter/puppeteer-helper.
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true

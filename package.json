@@ -1,6 +1,0 @@
-{
-  "name": "docker-puppeteer",
-  "dependencies": {
-    "@ianwalter/puppeteer-helper": "^1.0.0"
-  }
-}
