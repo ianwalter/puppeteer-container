@@ -3,7 +3,8 @@
 
 ## About
 
-Forked from [buildkite/puppeteer][buildkiteUrl].
+Forked from [buildkite/puppeteer][buildkiteUrl] and based on
+[this troubleshooting guide][troubleshootingUrl].
 
 ## Installation
 
@@ -27,5 +28,6 @@ Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
 Created by [Ian Walter](https://iankwalter.com)
 
 [buildkiteUrl]: https://github.com/buildkite/docker-puppeteer
+[troubleshootingUrl]: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
 [puppeteerHelperUrl]: https://github.com/ianwalter/puppeteer-helper
 [licenseUrl]: https://github.com/ianwalter/docker-puppeteer/blob/master/LICENSE
