@@ -1,0 +1,10 @@
+{
+  "version": "0.0.0",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "version": "echo $npm_package_version"
+  },
+  "devDependencies": {
+    "np": "^4.0.2"
+  }
+}
