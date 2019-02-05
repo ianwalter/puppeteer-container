@@ -6,13 +6,24 @@
 Forked from [buildkite/puppeteer][buildkiteUrl] and based on
 [this troubleshooting guide][troubleshootingUrl].
 
-## Installation
+## Usage
 
-```console
+As a [GitHub Action][actionsUrl]:
 
+```hcl
+action "Test" {
+  uses = "ianwalter/puppeteer@v1.0.0"
+  needs = ["Install"]
+  runs = "yarn"
+  args = "test"
+}
 ```
 
-## Usage
+As a [Docker container][dockerUrl]:
+
+```console
+docker pull ianwalter/puppeteer:1.0.0
+```
 
 ## Related
 
@@ -29,5 +40,7 @@ Created by [Ian Walter](https://iankwalter.com)
 
 [buildkiteUrl]: https://github.com/buildkite/docker-puppeteer
 [troubleshootingUrl]: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+[actionsUrl]: https://github.com/features/actions
+[dockerUrl]: https://hub.docker.com/r/ianwalter/puppeteer
 [puppeteerHelperUrl]: https://github.com/ianwalter/puppeteer-helper
 [licenseUrl]: https://github.com/ianwalter/docker-puppeteer/blob/master/LICENSE
