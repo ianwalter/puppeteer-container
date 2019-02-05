@@ -1,6 +1,6 @@
 workflow "CD" {
   on = "release"
-  resolves = ["Create Version Tag"]
+  resolves = ["Push Version Image"]
 }
 
 action "Build Image" {
