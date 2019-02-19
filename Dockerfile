@@ -1,9 +1,9 @@
 FROM node:11
 
-LABEL "com.github.actions.name"="Puppeteer"
+LABEL "com.github.actions.name"="Puppeteer Container"
 LABEL "com.github.actions.description"="A GitHub Action / Docker image for Puppeteer, the Headless Chrome Node API"
 LABEL "com.github.actions.icon"="globe"
-LABEL "com.github.actions.color"="#01D59F"
+LABEL "com.github.actions.color"="green"
 
 LABEL "repository"="http://github.com/ianwalter/puppeteer"
 LABEL "homepage"="http://github.com/ianwalter/puppeteer"
