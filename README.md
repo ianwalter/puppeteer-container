@@ -22,13 +22,13 @@ action "Test" {
 As a [Docker container][dockerUrl]:
 
 ```console
-docker pull ianwalter/puppeteer:1.0.0
+docker pull ianwalter/puppeteer:2.0.0
 ```
 
 ## Related
 
-* [`@ianwalter/puppeteer-helper`][puppeteerHelperUrl] - An AVA helper that
-  makes a Puppeteer page available to a test
+* [`@ianwalter/bff`][bffUrl] - Your friendly test runner/framework (a test
+  runner that can run Puppeteer tests)
 
 ## License
 
@@ -42,5 +42,5 @@ Created by [Ian Walter](https://iankwalter.com)
 [troubleshootingUrl]: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
 [actionsUrl]: https://github.com/features/actions
 [dockerUrl]: https://hub.docker.com/r/ianwalter/puppeteer
-[puppeteerHelperUrl]: https://github.com/ianwalter/puppeteer-helper
+[bffUrl]: https://github.com/ianwalter/bff
 [licenseUrl]: https://github.com/ianwalter/docker-puppeteer/blob/master/LICENSE
