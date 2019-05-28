@@ -39,3 +39,21 @@ action "Push Version Image" {
   needs = ["Push Latest Image", "Create Version Tag"]
   args = "push ianwalter/puppeteer:$VERSION"
 }
+
+workflow "CI" {
+  on = "push"
+  resolves = ["Test"]
+}
+
+action "Install" {
+  uses = ".."
+  runs = "yarn"
+}
+
+action "Test" {
+  uses = ".."
+  needs = ["Install"]
+  runs = "yarn"
+  args = "test"
+}
+

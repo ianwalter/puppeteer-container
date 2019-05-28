@@ -4,9 +4,11 @@
   "version": "2.0.0",
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
-    "version": "echo $npm_package_version"
+    "version": "echo $npm_package_version",
+    "test": "bff"
   },
   "devDependencies": {
+    "@ianwalter/bff": "^5.1.1",
     "@ianwalter/renovate-config": "^1.1.0",
     "np": "^5.0.2"
   },
