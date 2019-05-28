@@ -46,12 +46,12 @@ workflow "CI" {
 }
 
 action "Install" {
-  uses = ".."
+  uses = "../"
   runs = "yarn"
 }
 
 action "Test" {
-  uses = ".."
+  uses = "../"
   needs = ["Install"]
   runs = "yarn"
   args = "test"
