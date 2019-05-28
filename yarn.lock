@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@ianwalter/renovate-config@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/renovate-config/-/renovate-config-1.1.0.tgz#04bbd0e384eb0d37eb7c94bddc7ea6d0f3bc1bf4"
+  integrity sha512-2O1o0lAhI3q9cMd6UzPE0RbSLkxsudd1jDpNBI+oi5hFAqokJbgjkdf3eXKYBd1rwA3/WAQrZh4xpl6iE0llLg==
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
