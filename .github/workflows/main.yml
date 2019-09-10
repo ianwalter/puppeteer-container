@@ -3,13 +3,15 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-    uses: ianwalter/puppeteer@master # TODO: can I use a variable here?
     steps:
       - name: Checkout
         uses: actions/checkout@master
       - name: Install
+        uses: ianwalter/puppeteer@master # TODO: can I use a variable here?
         run: yarn
       - name: Lint
+        uses: ianwalter/puppeteer@master
         run: yarn lint
       - name: Test
+        uses: ianwalter/puppeteer@master
         run: yarn test
