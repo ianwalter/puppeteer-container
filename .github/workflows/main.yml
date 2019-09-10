@@ -8,10 +8,13 @@ jobs:
         uses: actions/checkout@master
       - name: Install
         uses: ianwalter/puppeteer@master # TODO: can I use a variable here?
-        args: yarn
+        with:
+          args: yarn
       - name: Lint
         uses: ianwalter/puppeteer@master
-        args: yarn lint
+        with:
+          args: yarn lint
       - name: Test
         uses: ianwalter/puppeteer@master
-        args: yarn test
+        with:
+          args: yarn test
