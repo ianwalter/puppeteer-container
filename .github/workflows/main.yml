@@ -3,8 +3,7 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: node:12.9-slim
+    uses: ianwalter/puppeteer@master # TODO: can I use a variable here?
     steps:
       - name: Checkout
         uses: actions/checkout@master
