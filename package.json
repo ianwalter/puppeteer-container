@@ -8,7 +8,7 @@
     "test": "bff"
   },
   "devDependencies": {
-    "@ianwalter/bff": "^5.1.1",
+    "@ianwalter/bff": "^6.5.0",
     "@ianwalter/release": "^2.0.1",
     "@ianwalter/renovate-config": "^1.2.0"
   },
