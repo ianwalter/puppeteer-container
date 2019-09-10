@@ -4,13 +4,21 @@
   "version": "2.0.0",
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
-    "version": "echo $npm_package_version",
-    "test": "bff"
+    "lint": "eslint .",
+    "test": "bff",
+    "version": "echo $npm_package_version"
   },
   "devDependencies": {
     "@ianwalter/bff": "^5.1.1",
+    "@ianwalter/eslint-config": "^2.4.0",
     "@ianwalter/release": "^2.0.1",
     "@ianwalter/renovate-config": "^1.1.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@ianwalter"
+    ]
   },
   "renovate": {
     "extends": [
