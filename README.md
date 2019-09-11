@@ -10,13 +10,23 @@ Forked from [buildkite/puppeteer][buildkiteUrl] and based on
 
 As a [GitHub Action][actionsUrl]:
 
-```hcl
-action "Test" {
-  uses = "ianwalter/puppeteer@v2.0.0"
-  needs = ["Install"]
-  runs = "yarn"
-  args = "test"
-}
+```yml
+name: Main
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Install
+        uses: ianwalter/puppeteer@v2.0.0
+        with:
+          args: yarn
+      - name: Test
+        uses: ianwalter/puppeteer@v2.0.0
+        with:
+          args: yarn test
 ```
 
 As a [Docker container][dockerUrl]:
