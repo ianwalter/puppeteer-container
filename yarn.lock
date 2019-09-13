@@ -107,10 +107,10 @@
     marked "^0.7.0"
     marked-terminal "^3.3.0"
 
-"@ianwalter/release@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@ianwalter/release/-/release-2.0.1.tgz#4c27bdb12d8edfb79d225e0b476ec3171cd29b6a"
-  integrity sha512-02fIEXhMIyRQctqq2txoIvj+jjWKISknteyiWGf+2lUZoMCZ227MFDDGPUqsbnrXkJU12niBq33inrnP7e4NkQ==
+"@ianwalter/release@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/release/-/release-2.1.0.tgz#9eea57f1dbc8e1dd2d6ed7b75fcfc39db114b7f2"
+  integrity sha512-USuXoPms3vp1VaIv85nx0+Bt/4LJxR0CuY3PGVjGqq0yfNyFTy+vF6rAwVepjR56vkaKsqHnPlLUNuFOSGRXrw==
   dependencies:
     "@ianwalter/cli" "^1.2.0"
     "@ianwalter/commits" "^0.0.5"

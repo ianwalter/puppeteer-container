@@ -11,7 +11,7 @@
   "devDependencies": {
     "@ianwalter/bff": "^6.5.0",
     "@ianwalter/eslint-config": "^2.4.0",
-    "@ianwalter/release": "^2.0.1",
+    "@ianwalter/release": "^2.1.0",
     "@ianwalter/renovate-config": "^1.2.0"
   },
   "eslintConfig": {
