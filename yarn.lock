@@ -27,13 +27,13 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@ianwalter/bff@^6.5.1":
-  version "6.5.1"
-  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-6.5.1.tgz#6c6c1439bb0eb3e21a1d77fdebb130f71ae97c6a"
-  integrity sha512-ETmcrqgb9vuNZTDNUCvQGZUk5/oILq94B2qCmy9C2913Cg6q/qmbRZY7b2kgrkUnPR5pCcj6Q9yHKCHru9HxeA==
+"@ianwalter/bff@^6.5.2":
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-6.5.2.tgz#0f0cda2492725789e47e10a49f5e07d7b12b8740"
+  integrity sha512-48LHPeqRWNsc0UBh8pMMqvbWWlM2J8OCbAh80/cJO610aar0qK3EZD5Zd0Hh4bAQ+iv5AqeclZK3n+x3aAtv4g==
   dependencies:
     "@ianwalter/cli" "^1.2.0"
-    "@ianwalter/print" "^3.3.1"
+    "@ianwalter/print" "^3.4.0"
     "@ianwalter/timer" "^1.1.0"
     common-tags "^1.8.0"
     expect "^24.9.0"
@@ -108,6 +108,11 @@
   resolved "https://registry.yarnpkg.com/@ianwalter/log/-/log-3.0.0.tgz#c85f7343e28e98d0a4c872a42e6bdd6d8b302e8d"
   integrity sha512-CAB1LaZUDUvQexuZYXmRhaFrpNqguIwA+ciB8+uvDm9dakNX3H+Yd7VIOisvx/y4GljH2hSrlTfCzhy14/0/YQ==
 
+"@ianwalter/log@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/log/-/log-3.1.0.tgz#e01bd09cf27e012f07d534a04b9a07c0e0d7b226"
+  integrity sha512-6sROPtR86sdcE4ZW3LBqKlsDe8WLOkQqsfhYI8F9nAfFTgV0cjdYjQw6jkruafKzNb2CxPfv7ut0x55L2X7nGw==
+
 "@ianwalter/merge@^5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@ianwalter/merge/-/merge-5.0.0.tgz#972b3cd668ab87416fba1af99186cd83d34d687f"
@@ -121,6 +126,20 @@
     "@ianwalter/chromafi" "^1.0.1"
     "@ianwalter/clone" "^4.1.0"
     "@ianwalter/log" "^3.0.0"
+    chalk "^2.4.2"
+    has-ansi "^4.0.0"
+    has-emoji "^1.1.0"
+    marked "^0.7.0"
+    marked-terminal "^3.3.0"
+
+"@ianwalter/print@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-3.4.0.tgz#c24e76819455038f32d69c1ed6b9b8abbdd4bcc3"
+  integrity sha512-4JeQBCu8unHBeuvAW0M16WyTKVgFu6kDJ1EdWM37lqEWZ+TCpT1qmnzQ7a//cQUj6WrQg/WyikiYeeoxtm2J0w==
+  dependencies:
+    "@ianwalter/chromafi" "^1.0.1"
+    "@ianwalter/clone" "^4.1.0"
+    "@ianwalter/log" "^3.1.0"
     chalk "^2.4.2"
     has-ansi "^4.0.0"
     has-emoji "^1.1.0"
