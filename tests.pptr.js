@@ -1,4 +1,4 @@
-import { test } from '@ianwalter/bff'
+import { test } from '@ianwalter/bff-puppeteer'
 
 test('click handler', ({ expect }) => {
   let testValue = 'foo'
