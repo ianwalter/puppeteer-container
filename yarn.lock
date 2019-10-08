@@ -27,13 +27,13 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@ianwalter/bff@^6.5.2":
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-6.5.2.tgz#0f0cda2492725789e47e10a49f5e07d7b12b8740"
-  integrity sha512-48LHPeqRWNsc0UBh8pMMqvbWWlM2J8OCbAh80/cJO610aar0qK3EZD5Zd0Hh4bAQ+iv5AqeclZK3n+x3aAtv4g==
+"@ianwalter/bff@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-7.0.0.tgz#b7f2a320d709392fd9cd6e3d0da55cfbf26c07b7"
+  integrity sha512-7SCMDABffx7uHvbVxn37tdnnnBduqP1fFrL5ZrE0epe0u11mBs3O+Ja/vYItC1ExTYgtcFcWYdF5yXtDRV6njA==
   dependencies:
     "@ianwalter/cli" "^1.2.0"
-    "@ianwalter/print" "^3.4.0"
+    "@ianwalter/print" "^3.6.0"
     "@ianwalter/timer" "^1.1.0"
     common-tags "^1.8.0"
     expect "^24.9.0"
@@ -132,10 +132,10 @@
     marked "^0.7.0"
     marked-terminal "^3.3.0"
 
-"@ianwalter/print@^3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-3.4.0.tgz#c24e76819455038f32d69c1ed6b9b8abbdd4bcc3"
-  integrity sha512-4JeQBCu8unHBeuvAW0M16WyTKVgFu6kDJ1EdWM37lqEWZ+TCpT1qmnzQ7a//cQUj6WrQg/WyikiYeeoxtm2J0w==
+"@ianwalter/print@^3.6.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-3.6.0.tgz#2de0528d599f241f1ea5560fa04220b057f5d43c"
+  integrity sha512-/ceB61lZaH6vap6R1oI0aLKLUtcu2yL/StZdRH47Yxbxu1beUAkMTKI5iYd4M50bsxhvX4WuLihIMQFVz/kFDQ==
   dependencies:
     "@ianwalter/chromafi" "^1.0.1"
     "@ianwalter/clone" "^4.1.0"
