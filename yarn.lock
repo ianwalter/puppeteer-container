@@ -104,12 +104,12 @@
     marked-terminal "^3.3.0"
     strip "^3.0.0"
 
-"@ianwalter/eslint-config@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-3.0.0.tgz#2a7d2f1679f2fb9b90db9721c43f8b87d0ac9cdb"
-  integrity sha512-4ThfDh2eW4zodLbTFW2GtEOFhwzlM+myc1zIqpgyzh69onHl4OnPNEpHyxncJW6fTzYG6CTXncIGtUok/bzOww==
+"@ianwalter/eslint-config@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-3.1.0.tgz#4a1f0c6beb61dbc415251a95860fc7a2076746e4"
+  integrity sha512-6VZXlDyn9afSSRWDd+q8Hemg8EN/7WKTcF6oEIgzpFxGK2qwrJRpY8fTLq9Rx3jYZxTVTtDPM0crihSEnB2K7g==
   dependencies:
-    eslint "^6.4.0"
+    eslint "^6.5.1"
     eslint-config-standard "^14.1.0"
     eslint-plugin-html "^6.0.0"
     eslint-plugin-import "^2.18.2"
@@ -1825,10 +1825,10 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
-eslint@^6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.4.0.tgz#5aa9227c3fbe921982b2eda94ba0d7fae858611a"
-  integrity sha512-WTVEzK3lSFoXUovDHEbkJqCVPEPwbhCq4trDktNI6ygs7aO41d4cDT0JFAT5MivzZeVLWlg7vHL+bgrQv/t3vA==
+eslint@^6.5.1:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.5.1.tgz#828e4c469697d43bb586144be152198b91e96ed6"
+  integrity sha512-32h99BoLYStT1iq1v2P9uwpyznQ4M2jRiFB6acitKz52Gqn+vPaMDUTB1bYi1WN4Nquj2w+t+bimYUG83DC55A==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
