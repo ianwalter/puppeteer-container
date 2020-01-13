@@ -27,6 +27,11 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@ianwalter/base-error@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/base-error/-/base-error-6.1.0.tgz#a25f8a57e04877f6823251c5f1e05c7c060a0130"
+  integrity sha512-a1oe3gdY7aVJotysd2hbkARZdIXd80b1xL+kcJGQ/5VzEv7bMhQ+vlamv8DLz828uz/dxMCVb4++n75RyVUs2Q==
+
 "@ianwalter/bff-puppeteer@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@ianwalter/bff-puppeteer/-/bff-puppeteer-1.4.0.tgz#7aaed8188029bc9db7d319128263394537b71ad2"
@@ -186,17 +191,34 @@
     marked-terminal "^3.3.0"
     strip-ansi "^6.0.0"
 
-"@ianwalter/release@^3.0.7":
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/@ianwalter/release/-/release-3.0.7.tgz#2fb4fedc542f7338ce149099b736530d88b84fac"
-  integrity sha512-ytuQzgVtlku3e2XzpFPZRV2tzr5bIo/xn8hCRxxiElpfyXu0niZmxknQoQlVLbL+yu4+eaCLx/HvJVtQz/E4ag==
+"@ianwalter/print@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-4.0.2.tgz#18bdb9cb3feb8222b845b8e964ae92621965774c"
+  integrity sha512-rDVckxFKQ046LByTntFqoHUFdKglAaZiIpHShXfjuYOj6f4fT7Mg2A5OpI7y5K0nSq8Ag6QW9YAY7FuY0v0uXg==
   dependencies:
+    "@ianwalter/chromafi" "^1.0.1"
+    "@ianwalter/clone" "^4.1.0"
+    "@ianwalter/log" "^4.0.0"
+    "@ianwalter/merge" "^5.0.0"
+    chalk "^3.0.0"
+    has-ansi "^4.0.0"
+    has-emoji "^1.1.0"
+    marked "^0.7.0"
+    marked-terminal "^3.3.0"
+    strip-ansi "^6.0.0"
+
+"@ianwalter/release@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/release/-/release-4.0.0.tgz#32857f14e20596aa0519ec937af87f36b6f9f545"
+  integrity sha512-weqw3Uw8q5AQfd0CUXChIAFNTi92xxEcHIomXE5vLYImSz0zFeJ6Au7Ps2T1+E3GtRFAqkKgGwbDpNJfWilPkQ==
+  dependencies:
+    "@ianwalter/base-error" "^6.1.0"
     "@ianwalter/cli" "^3.0.0"
     "@ianwalter/commits" "^1.0.1"
-    "@ianwalter/print" "^4.0.0"
+    "@ianwalter/print" "^4.0.2"
     "@ianwalter/update-package" "^0.0.2"
     common-tags "^1.8.0"
-    execa "^3.4.0"
+    execa "^4.0.0"
     latest-version "^5.1.0"
     new-github-release-url "^1.0.0"
     prompts "^2.3.0"
@@ -2020,6 +2042,21 @@ execa@^3.4.0:
     npm-run-path "^4.0.0"
     onetime "^5.1.0"
     p-finally "^2.0.0"
+    signal-exit "^3.0.2"
+    strip-final-newline "^2.0.0"
+
+execa@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.0.tgz#7f37d6ec17f09e6b8fc53288611695b6d12b9daf"
+  integrity sha512-JbDUxwV3BoT5ZVXQrSVbAiaXhXUkIwvbhPIwZ0N13kX+5yCzOhUNdocxB/UQRuYOHRYYwAxKYwJYc0T4D12pDA==
+  dependencies:
+    cross-spawn "^7.0.0"
+    get-stream "^5.0.0"
+    human-signals "^1.1.1"
+    is-stream "^2.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^4.0.0"
+    onetime "^5.1.0"
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
