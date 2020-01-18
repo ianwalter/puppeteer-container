@@ -9,7 +9,7 @@
     "version": "echo $npm_package_version"
   },
   "devDependencies": {
-    "@ianwalter/bff": "^8.0.0",
+    "@ianwalter/bff": "^8.1.0",
     "@ianwalter/bff-puppeteer": "^1.4.0",
     "@ianwalter/eslint-config": "^3.1.0",
     "@ianwalter/release": "^5.0.0",
