@@ -1,4 +1,4 @@
-FROM node:12.14
+FROM node:13.7.0
 
 LABEL "com.github.actions.name"="Puppeteer Container"
 LABEL "com.github.actions.description"="A GitHub Action / Docker image for Puppeteer, the Headless Chrome Node API"
