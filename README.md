@@ -8,6 +8,12 @@ Forked from [buildkite/puppeteer][buildkiteUrl] and based on
 
 ## Usage
 
+Puppeteer will need to be launched with:
+```js
+browser.launch({ executablePath: 'google-chrome-unstable' })
+```
+This is done by default in [@ianwalter/bff](https://www.npmjs.com/package/@ianwalter/bff).
+
 As a [GitHub Action][actionsUrl]:
 
 ```yml
