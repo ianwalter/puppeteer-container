@@ -207,15 +207,15 @@
     p-series "^2.1.0"
     workerpool "^5.0.0"
 
-"@ianwalter/bff@^9.2.1":
-  version "9.2.1"
-  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-9.2.1.tgz#7076c0716374f908ed01e92014f2d492d8aed995"
-  integrity sha512-NGzZmBZO2fBgBiNWGNBk3aSGzL8iEm8q2at6PulIwupiuhEaA36VKtbNjuFE3WxN1aYQpSpX9Oy1c30v/rV2Zg==
+"@ianwalter/bff@^9.3.0":
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-9.3.0.tgz#970e505f276f856fe9284afcee7abbc7ff2c972b"
+  integrity sha512-UgOiOe90SzFqKbX5QojSmvSzSH3v8deSSSlUsdjkMOZMG7zh3AActzaA70ZndOHmsZzsUJukBxpYFe4zwM0hSg==
   dependencies:
     "@ianwalter/cli" "^4.1.0"
-    "@ianwalter/clone" "^4.1.0"
+    "@ianwalter/clone" "^5.0.0"
     "@ianwalter/cloneable" "^1.0.1"
-    "@ianwalter/print" "^5.0.0"
+    "@ianwalter/print" "^5.1.0"
     "@ianwalter/subpub" "^2.0.0"
     "@ianwalter/timer" "^1.1.0"
     callsites "^3.1.0"
@@ -287,6 +287,11 @@
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@ianwalter/clone/-/clone-4.1.0.tgz#635860922699338da607b8e990ae5173e3e3e9c9"
   integrity sha512-UWlp3DtPvLgZkS3hy6ihHQATjQC1BtoJxk4PCO/v7r8m7P4g0WkdacadpUh0ze3yNqO+uFIRW2RX1boGz7feQQ==
+
+"@ianwalter/clone@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/clone/-/clone-5.0.0.tgz#d5e20f3b9eccfbbb094f6f38e1cf6d31818b51ac"
+  integrity sha512-N0BlOwYog4ASu2OP+9q2xM3fvJDtFm4YhhZG2dmn0rmueJGhqC/OSJIHgixL6wORDP0w9+sRJdI97b0IoWBdYw==
 
 "@ianwalter/cloneable@^1.0.1":
   version "1.0.1"
@@ -382,6 +387,22 @@
   dependencies:
     "@ianwalter/chromafi" "^1.0.1"
     "@ianwalter/clone" "^4.1.0"
+    "@ianwalter/log" "^4.0.0"
+    "@ianwalter/merge" "^5.0.0"
+    chalk "^3.0.0"
+    has-ansi "^4.0.0"
+    has-emoji "^1.1.0"
+    marked "^0.8.0"
+    marked-terminal "^4.0.0"
+    strip-ansi "^6.0.0"
+
+"@ianwalter/print@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-5.1.0.tgz#52c5b727a24088ae3354f34c8147761053bc907f"
+  integrity sha512-hthgIc5l98Az6TS1m2SzAzjWtVwrAdBBJvW8uhtvq+awekelri5s4yoKNLkZAjHRJSM7gyXX+IK/ttISzkiOUA==
+  dependencies:
+    "@ianwalter/chromafi" "^1.0.1"
+    "@ianwalter/clone" "^5.0.0"
     "@ianwalter/log" "^4.0.0"
     "@ianwalter/merge" "^5.0.0"
     chalk "^3.0.0"
