@@ -207,15 +207,15 @@
     p-series "^2.1.0"
     workerpool "^5.0.0"
 
-"@ianwalter/bff@^9.4.1":
-  version "9.4.1"
-  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-9.4.1.tgz#26757f51f959e5b0ee8d70eda641de048ce2da46"
-  integrity sha512-fJGpf2m/9bGPDWnDW+6xacb7J4wTfBLNE9OndrUAk9LoAh4Ywdje+xZUzPCMwtelRQ5Emov3/ec7LIcQgbDY2g==
+"@ianwalter/bff@^9.5.0":
+  version "9.5.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-9.5.0.tgz#895cc6cadc34e9b091c951b416f8918e6ff66002"
+  integrity sha512-Pagw+hP95NEjUOifSxectWz9hzyHgBG9UMHm7cTiuh3nm7zHp0e9fvg1WD+zrOcVBR3qVjyFOXKCU3Z0YpkjMg==
   dependencies:
     "@ianwalter/cli" "^4.1.0"
     "@ianwalter/clone" "^5.0.0"
     "@ianwalter/cloneable" "^1.0.1"
-    "@ianwalter/print" "^5.1.0"
+    "@ianwalter/print" "^5.2.1"
     "@ianwalter/subpub" "^2.0.0"
     "@ianwalter/timer" "^1.1.0"
     callsites "^3.1.0"
@@ -397,10 +397,10 @@
     marked-terminal "^4.0.0"
     strip-ansi "^6.0.0"
 
-"@ianwalter/print@^5.1.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-5.1.0.tgz#52c5b727a24088ae3354f34c8147761053bc907f"
-  integrity sha512-hthgIc5l98Az6TS1m2SzAzjWtVwrAdBBJvW8uhtvq+awekelri5s4yoKNLkZAjHRJSM7gyXX+IK/ttISzkiOUA==
+"@ianwalter/print@^5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-5.2.1.tgz#c45eee0cc9eae1a03dcef5fcdcad2bea74614bd8"
+  integrity sha512-kbdwljHZKZXcDmlDV9XpCVLtc/gNAFID3jGSPExfwcX3CQaFqcdHvZ2otm1Zsen0ES9ybt4SJXoOddc/zyVXUg==
   dependencies:
     "@ianwalter/chromafi" "^1.0.1"
     "@ianwalter/clone" "^5.0.0"
