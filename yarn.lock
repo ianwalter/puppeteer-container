@@ -207,15 +207,15 @@
     p-series "^2.1.0"
     workerpool "^5.0.0"
 
-"@ianwalter/bff@^9.5.0":
-  version "9.5.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-9.5.0.tgz#895cc6cadc34e9b091c951b416f8918e6ff66002"
-  integrity sha512-Pagw+hP95NEjUOifSxectWz9hzyHgBG9UMHm7cTiuh3nm7zHp0e9fvg1WD+zrOcVBR3qVjyFOXKCU3Z0YpkjMg==
+"@ianwalter/bff@^9.6.0":
+  version "9.6.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-9.6.0.tgz#6c844223ddcae96b9bf373a3665f2455e1fe38da"
+  integrity sha512-eKmZKM1dJ8cbZaUbgN0ASi8HDcQkZhU1R0oSvVTuv+rPgR7a+3P6x2X/+WrZiJ0XU0gXGmC9B9kmXe80R9u9nw==
   dependencies:
     "@ianwalter/cli" "^4.1.0"
     "@ianwalter/clone" "^5.0.0"
     "@ianwalter/cloneable" "^1.0.1"
-    "@ianwalter/print" "^5.2.1"
+    "@ianwalter/print" "^5.3.0"
     "@ianwalter/subpub" "^2.0.0"
     "@ianwalter/timer" "^1.1.0"
     callsites "^3.1.0"
@@ -337,6 +337,11 @@
   resolved "https://registry.yarnpkg.com/@ianwalter/merge/-/merge-5.0.0.tgz#972b3cd668ab87416fba1af99186cd83d34d687f"
   integrity sha512-Z+Xn8dT0ApkjGizdwMQaCgsAyHO+zKhCC2OYO7lEYLs1IdCzXtRUYah3vkIWT8/Ad94ni0rxtR39VTRWJE1/Qw==
 
+"@ianwalter/merge@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/merge/-/merge-6.0.0.tgz#7d7facccc86fb407571c78de00a0bd2adca395cb"
+  integrity sha512-Ohskh/vqQFgW2Abaxd3kPYz/uNqoUmCSjU8kB8SoRieQqIOyXit1pFKYW4HmcoRcDFbktpWmS1QpIBoF74DGBg==
+
 "@ianwalter/print@^3.6.0":
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-3.6.0.tgz#2de0528d599f241f1ea5560fa04220b057f5d43c"
@@ -397,15 +402,15 @@
     marked-terminal "^4.0.0"
     strip-ansi "^6.0.0"
 
-"@ianwalter/print@^5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-5.2.1.tgz#c45eee0cc9eae1a03dcef5fcdcad2bea74614bd8"
-  integrity sha512-kbdwljHZKZXcDmlDV9XpCVLtc/gNAFID3jGSPExfwcX3CQaFqcdHvZ2otm1Zsen0ES9ybt4SJXoOddc/zyVXUg==
+"@ianwalter/print@^5.3.0":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-5.3.0.tgz#f5a73bbe387075d0ac5fb654943c81c181082d84"
+  integrity sha512-YkkUv/Bnwzu0qNqj3BCo1ZP19wk2kkYXYhFvgKGZqVpELRHEwOzo5pD4KszwhjvMUNiBOLYqOZO8C3OCx5+cXA==
   dependencies:
     "@ianwalter/chromafi" "^1.0.1"
     "@ianwalter/clone" "^5.0.0"
     "@ianwalter/log" "^4.0.0"
-    "@ianwalter/merge" "^5.0.0"
+    "@ianwalter/merge" "^6.0.0"
     chalk "^3.0.0"
     has-ansi "^4.0.0"
     has-emoji "^1.1.0"
