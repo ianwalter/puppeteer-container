@@ -207,10 +207,10 @@
     p-series "^2.1.0"
     workerpool "^5.0.0"
 
-"@ianwalter/bff@^9.7.0":
-  version "9.7.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-9.7.0.tgz#054817e3406e37ef36d3ff9e2a8ce9e6d24867ba"
-  integrity sha512-0zHxnd/MpPkHcA9Wu8vZGWqqcg3/NzWCfVbjo2ovBNfyHReElakXojcEeoJKZHu8kRV5nyj1CoXoSM7bOd/geg==
+"@ianwalter/bff@^9.8.0":
+  version "9.8.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-9.8.0.tgz#42f1ae0d9fdfc73811d0be15fb18326ef9fcbd9d"
+  integrity sha512-HrBVdXQnKXRXxIMSO1ZYavu4HwsQgBfnP5P+4q4+tzqbX+ocw4KbPzMhTi0KXoOQ5Or10lSdrdWMbW3QvMFekg==
   dependencies:
     "@ianwalter/cli" "^4.1.0"
     "@ianwalter/clone" "^6.0.1"
