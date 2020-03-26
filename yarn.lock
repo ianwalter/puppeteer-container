@@ -441,10 +441,10 @@
     prompts "^2.3.0"
     semver "^7.1.1"
 
-"@ianwalter/renovate-config@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/renovate-config/-/renovate-config-1.2.0.tgz#f84e2fc56ad5d29c0876058c16c25db95baf74a9"
-  integrity sha512-OSvziSdR0gxnWeH+9KbS9+HjojFa73vqNFU7wAxWs2ZV/9YofpKw0HwGtzyYgb1xVk8g6ZFPMYaTnFZ4Af6N/w==
+"@ianwalter/renovate-config@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/renovate-config/-/renovate-config-1.3.0.tgz#821419333c7673dae837b7bbfb5574a520a4e9db"
+  integrity sha512-J6xH9Lnm9TxqtZIO/cWFT1ziykPN3HlcMeJmUyiOHB0ol4DYJJPM/6/LSbEydU7iUGK5DxobWLAHoKC4j7RcLg==
 
 "@ianwalter/subpub@^2.0.0":
   version "2.0.0"
