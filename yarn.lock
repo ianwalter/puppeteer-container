@@ -315,16 +315,16 @@
     execa "^3.4.0"
     strip "^3.0.0"
 
-"@ianwalter/eslint-config@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-4.0.1.tgz#8c613b4dedacfd09fd9a237bd05caea22460d815"
-  integrity sha512-hF1NKGWtzcXHaofQXSJYMIsF7TreMZClmBk48nEWwsUBeKTdQPlEJwrITYmUlm+bH+bzTE+PbpXZrmi03SZHoQ==
+"@ianwalter/eslint-config@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-4.1.0.tgz#3b53f3af65c8b8af002aaad2374e49521fd3f50a"
+  integrity sha512-+Dtg/uffjXNN3Hk54QfXJ4sqqP+OAAsnikm2sICyU/r5QM58X44kyLGzFEJdn7evHTqu3fcd2GBQhQzGyAPUgg==
   dependencies:
     eslint "^6.8.0"
     eslint-config-standard "^14.1.1"
     eslint-plugin-html "^6.0.0"
     eslint-plugin-import "^2.20.1"
-    eslint-plugin-node "^11.0.0"
+    eslint-plugin-node "^11.1.0"
     eslint-plugin-promise "^4.2.1"
     eslint-plugin-standard "^4.0.1"
 
@@ -2337,10 +2337,10 @@ eslint-plugin-import@^2.20.1:
     read-pkg-up "^2.0.0"
     resolve "^1.12.0"
 
-eslint-plugin-node@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-11.0.0.tgz#365944bb0804c5d1d501182a9bc41a0ffefed726"
-  integrity sha512-chUs/NVID+sknFiJzxoN9lM7uKSOEta8GC8365hw1nDfwIPIjjpRSwwPvQanWv8dt/pDe9EV4anmVSwdiSndNg==
+eslint-plugin-node@^11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-11.1.0.tgz#c95544416ee4ada26740a30474eefc5402dc671d"
+  integrity sha512-oUwtPJ1W0SKD0Tr+wqu92c5xuCeQqB3hSCHasn/ZgjFdA9iDGNkNf2Zi9ztY7X+hNuMib23LNGRm6+uN+KLE3g==
   dependencies:
     eslint-plugin-es "^3.0.0"
     eslint-utils "^2.0.0"
