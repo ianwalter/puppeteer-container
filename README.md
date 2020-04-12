@@ -38,8 +38,8 @@ docker pull ianwalter/puppeteer:2.0.0
 ## Related
 
 * [`@ianwalter/bff`][bffUrl] - Your friendly test runner/framework
-* [`@ianwalter/bff-puppeteer`][bffPuppeteerUrl] - A bff plugin to enable 
-  Puppeteer-based testing 
+* [`@ianwalter/bff-puppeteer`][bffPuppeteerUrl] - A bff plugin to enable
+  Puppeteer-based testing
 
 ## License
 
@@ -47,7 +47,7 @@ Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
 
 &nbsp;
 
-Created by [Ian Walter](https://iankwalter.com)
+Created by [Ian Walter](https://ianwalter.dev)
 
 [buildkiteUrl]: https://github.com/buildkite/docker-puppeteer
 [troubleshootingUrl]: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
