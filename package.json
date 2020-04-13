@@ -22,10 +22,7 @@
   "bff": {
     "plugins": [
       "@ianwalter/bff-puppeteer"
-    ],
-    "puppeteer": {
-      "executablePath": "google-chrome-stable"
-    }
+    ]
   },
   "eslintConfig": {
     "root": true,
