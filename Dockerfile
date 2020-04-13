@@ -7,7 +7,7 @@ LABEL "com.github.actions.color"="green"
 
 LABEL "repository"="http://github.com/ianwalter/puppeteer"
 LABEL "homepage"="http://github.com/ianwalter/puppeteer"
-LABEL "maintainer"="Ian Walter <public@iankwalter.com>"
+LABEL "maintainer"="Ian Walter <pub@ianwalter.dev>"
 
 RUN  apt-get update \
      # See https://crbug.com/795759
@@ -18,7 +18,7 @@ RUN  apt-get update \
      && wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
      && sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' \
      && apt-get update \
-     && apt-get install -y google-chrome-unstable --no-install-recommends \
+     && apt-get install -y google-chrome-stable --no-install-recommends \
      && rm -rf /var/lib/apt/lists/*
 
 # When installing Puppeteer through npm, instruct it to not download Chromium.

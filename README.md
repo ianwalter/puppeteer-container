@@ -13,19 +13,24 @@ Puppeteer will need to be launched with:
 ```js
 browser.launch({ executablePath: 'google-chrome-unstable' })
 ```
+
 This is done by default in [@ianwalter/bff-puppeteer][bffPuppeteerUrl].
 
 As a [GitHub Action][actionsUrl]:
 
 ```yml
-name: Main
-on: push
+name: CI
+on:
+  push:
+    branches:
+      - master
+  pull_request:
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
       - name: Install
         uses: ianwalter/puppeteer@v2.0.0
         with:
