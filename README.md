@@ -11,7 +11,7 @@ Forked from [buildkite/puppeteer][buildkiteUrl] and based on
 Puppeteer will need to be launched with:
 
 ```js
-browser.launch({ executablePath: 'google-chrome-unstable' })
+browser.launch({ executablePath: 'google-chrome-stable' })
 ```
 
 This is done by default in [@ianwalter/bff-puppeteer][bffPuppeteerUrl].
