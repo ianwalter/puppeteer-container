@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "puppeteer",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": {
     "name": "Ian Walter",
     "url": "https://ianwalter.dev"
