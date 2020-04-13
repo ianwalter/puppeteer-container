@@ -32,6 +32,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install
+        # NOTE: this pins the action to a specific commit sha for security
+        # reasons but you can also use a version tag if desired. For example:
+        # ianwalter/puppeteer@3.0.0
         uses: ianwalter/puppeteer@12728ddef82390d1ecd4732fb543f62177392fbb
         with:
           args: yarn
