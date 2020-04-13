@@ -32,11 +32,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install
-        uses: ianwalter/puppeteer@v2.0.0
+        uses: ianwalter/puppeteer@12728ddef82390d1ecd4732fb543f62177392fbb
         with:
           args: yarn
       - name: Test
-        uses: ianwalter/puppeteer@v2.0.0
+        uses: ianwalter/puppeteer@12728ddef82390d1ecd4732fb543f62177392fbb
         with:
           args: yarn test
 ```
@@ -44,7 +44,7 @@ jobs:
 As a [Docker container][dockerUrl]:
 
 ```console
-docker pull ianwalter/puppeteer:2.0.0
+docker pull ianwalter/puppeteer:3.0.0
 ```
 
 ## Related
