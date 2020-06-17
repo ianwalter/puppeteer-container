@@ -16,7 +16,7 @@
     "@ianwalter/bff": "^9.9.1",
     "@ianwalter/bff-puppeteer": "^3.0.1",
     "@ianwalter/eslint-config": "^5.1.0",
-    "@ianwalter/release": "^5.0.1",
+    "@ianwalter/release": "^5.0.2",
     "@ianwalter/renovate-config": "^1.3.0"
   },
   "bff": {
