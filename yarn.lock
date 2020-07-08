@@ -175,12 +175,12 @@
     execa "^3.4.0"
     strip "^3.0.0"
 
-"@ianwalter/eslint-config@^5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-5.2.0.tgz#23cbd253515ff9d26707cefa349503916718ce00"
-  integrity sha512-h1EUKp0he6pYRAAI1p6dP4DzkawwwRH+YnODCl5Xz+kQPerGQTvGDZbO57qZZW0QvsxWShEfQRgI//ZeZvIuAA==
+"@ianwalter/eslint-config@^5.3.0":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-5.3.0.tgz#47525e745966f39c456a8637b4e787201412dd19"
+  integrity sha512-V+/57fQPgaJNRFxAF+fjU/ODU4lUGgwNrzZB/jiBv3JNZT2ZDdPWG0utdCpOrxY5ODcr9CKM42/vKv8JfdQj3g==
   dependencies:
-    eslint "^7.3.1"
+    eslint "^7.4.0"
     eslint-config-standard "^14.1.1"
     eslint-plugin-html "^6.0.2"
     eslint-plugin-import "^2.22.0"
@@ -2183,10 +2183,10 @@ eslint-visitor-keys@^1.2.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.2.0.tgz#74415ac884874495f78ec2a97349525344c981fa"
   integrity sha512-WFb4ihckKil6hu3Dp798xdzSfddwKKU3+nGniKF6HfeW6OLd2OUDEPP7TcHtB5+QXOKg2s6B2DaMPE1Nn/kxKQ==
 
-eslint@^7.3.1:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.3.1.tgz#76392bd7e44468d046149ba128d1566c59acbe19"
-  integrity sha512-cQC/xj9bhWUcyi/RuMbRtC3I0eW8MH0jhRELSvpKYkWep3C6YZ2OkvcvJVUeO6gcunABmzptbXBuDoXsjHmfTA==
+eslint@^7.4.0:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.4.0.tgz#4e35a2697e6c1972f9d6ef2b690ad319f80f206f"
+  integrity sha512-gU+lxhlPHu45H3JkEGgYhWhkR9wLHHEXC9FbWFnTlEkbKyZKWgWRLgf61E8zWmBuI6g5xKBph9ltg3NtZMVF8g==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
