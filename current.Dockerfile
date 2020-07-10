@@ -14,4 +14,4 @@ RUN  apt-get update \
 
 # When installing Puppeteer through npm, instruct it to not download Chromium.
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
-ENV PUPPETEER_EXECUTABLE_PATH google-chrome-stable
+ENV PUPPETEER_EXECUTABLE_PATH /usr/bin/google-chrome-stable
