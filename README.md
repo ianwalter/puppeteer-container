@@ -38,7 +38,7 @@ jobs:
       - name: Install
         # NOTE: this pins the action to a specific commit sha for security
         # reasons but you can also use a version tag if desired. For example:
-        # ianwalter/puppeteer@3.0.1
+        # ianwalter/puppeteer@3.0.2
         uses: ianwalter/puppeteer@eac1a2f971c7e4668c3d4ef39873f8fe28859f2c
         with:
           args: yarn
@@ -51,7 +51,7 @@ jobs:
 As a [Docker container][dockerUrl]:
 
 ```console
-docker pull ianwalter/puppeteer:3.0.1
+docker pull ianwalter/puppeteer:3.0.2
 ```
 
 ## Related
