@@ -69,7 +69,7 @@ Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
 Created by [Ian Walter](https://ianwalter.dev)
 
 [buildkiteUrl]: https://github.com/buildkite/docker-puppeteer
-[troubleshootingUrl]: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+[troubleshootingUrl]: https://github.com/GoogleChrome/puppeteer/blob/main/docs/troubleshooting.md
 [actionsUrl]: https://github.com/features/actions
 [dockerUrl]: https://hub.docker.com/r/ianwalter/puppeteer
 [bffUrl]: https://github.com/ianwalter/bff
