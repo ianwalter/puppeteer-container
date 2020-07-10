@@ -11,8 +11,12 @@ Forked from [buildkite/puppeteer][buildkiteUrl] and based on
 Puppeteer will need to be launched with:
 
 ```js
-browser.launch({ executablePath: 'google-chrome-stable', args: ["--no-sandbox"]})
+browser.launch({ args: ['--no-sandbox'] })
 ```
+
+You may also have to configure `executablePath` to `'google-chrome-stable'` if
+the `PUPPETEER_EXECUTABLE_PATH` environment variable is not correct for some
+reason.
 
 This is done by default in [@ianwalter/bff-puppeteer][bffPuppeteerUrl].
 
