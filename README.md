@@ -1,4 +1,4 @@
-# ianwalter/puppeteer
+# ianwalter/puppeteer-container
 > A GitHub Action / Docker image for Puppeteer, the Headless Chrome Node API
 
 ## About
@@ -18,7 +18,7 @@ You may also have to configure `executablePath` to `'google-chrome-stable'` if
 the `PUPPETEER_EXECUTABLE_PATH` environment variable is not correct for some
 reason.
 
-This is done by default in [@ianwalter/bff-puppeteer][bffPuppeteerUrl].
+These are done by default in [@ianwalter/bff-puppeteer][bffUrl].
 
 As a [GitHub Action][actionsUrl]:
 
@@ -38,12 +38,12 @@ jobs:
       - name: Install
         # NOTE: this pins the action to a specific commit sha for security
         # reasons but you can also use a version tag if desired. For example:
-        # ianwalter/puppeteer@3.0.2
-        uses: ianwalter/puppeteer@a41ba81d6c2a033597513fcd189801c512244b7e
+        # ianwalter/puppeteer-container@3.0.2
+        uses: ianwalter/puppeteer-container@a41ba81d6c2a033597513fcd189801c512244b7e
         with:
           args: yarn
       - name: Test
-        uses: ianwalter/puppeteer@a41ba81d6c2a033597513fcd189801c512244b7e
+        uses: ianwalter/puppeteer-container@a41ba81d6c2a033597513fcd189801c512244b7e
         with:
           args: yarn test
 ```
@@ -57,8 +57,8 @@ docker pull ianwalter/puppeteer:3.0.2
 ## Related
 
 * [`@ianwalter/bff`][bffUrl] - Your friendly test runner/framework
-* [`@ianwalter/bff-puppeteer`][bffPuppeteerUrl] - A bff plugin to enable
-  Puppeteer-based testing
+* [`ianwalter/playwright-container`][playwrightUrl] - A GitHub Action / Docker
+  image for Playwright, the browser automation library
 
 ## License
 
@@ -73,5 +73,4 @@ Created by [Ian Walter](https://ianwalter.dev)
 [actionsUrl]: https://github.com/features/actions
 [dockerUrl]: https://hub.docker.com/r/ianwalter/puppeteer
 [bffUrl]: https://github.com/ianwalter/bff
-[bffPuppeteerUrl]: https://github.com/ianwalter/bff-puppeteer
-[licenseUrl]: https://github.com/ianwalter/docker-puppeteer/blob/master/LICENSE
+[licenseUrl]: https://github.com/ianwalter/puppeteer-container/blob/master/LICENSE

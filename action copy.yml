@@ -1,0 +1,9 @@
+name: Puppeteer Container
+description: A GitHub Action / Docker image for Puppeteer, the Headless Chrome Node API
+author: Ian Walter
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: globe
+  color: green

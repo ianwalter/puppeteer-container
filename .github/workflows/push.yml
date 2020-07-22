@@ -1,0 +1,21 @@
+name: Push
+on:
+  push:
+    tags:
+    - 'v*'
+  workflow_dispatch:
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Push
+        uses: docker/build-push-action@v1
+        with:
+          username: ianwalter
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          repository: ianwalter/puppeteer
+          tags: latest
+          tag_with_ref: true
