@@ -23,4 +23,4 @@ jobs:
       - name: Test
         uses: ./
         with:
-          args: pnpm test
+          args: pnpm t

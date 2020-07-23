@@ -1,26 +1,9 @@
-name: Add Changeset
-description: Automate adding a changeset for simple pull requests
+name: Puppeteer Container
+description: A GitHub Action / Docker image for Puppeteer, the Headless Chrome Node API
 author: Ian Walter
-branding:
-  icon: book
-  color: blue
-inputs:
-  type:
-    description: |
-      The SemVer type <major|minor|patch> to use when running manually and so
-      the "changeset:<type>" pull request label can't be used.
-    required: false
-  name:
-    description: |
-      The package name to use when running manually. If not specified, it will
-      be determined by looking at the closest package.json to the first changed
-      file.
-    required: false
-  summary:
-    description: |
-      The changeset summary to use when running manually. If not specified, the
-      pull request title will be used.
-    required: false
 runs:
-  using: node12
-  main: index.js
+  using: docker
+  image: Dockerfile
+branding:
+  icon: globe
+  color: green
