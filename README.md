@@ -14,11 +14,7 @@ Puppeteer will need to be launched with:
 browser.launch({ args: ['--no-sandbox'] })
 ```
 
-You may also have to configure `executablePath` to `'google-chrome-stable'` if
-the `PUPPETEER_EXECUTABLE_PATH` environment variable is not correct for some
-reason.
-
-These are done by default in [@ianwalter/bff-puppeteer][bffUrl].
+This is done by default in [@ianwalter/bff-puppeteer][bffUrl].
 
 As a [GitHub Action][actionsUrl]:
 
@@ -38,7 +34,7 @@ jobs:
       - name: Install
         # NOTE: this pins the action to a specific commit sha for security
         # reasons but you can also use a version tag if desired. For example:
-        # ianwalter/puppeteer-container@3.0.2
+        # ianwalter/puppeteer-container@4.0.0
         uses: ianwalter/puppeteer-container@a41ba81d6c2a033597513fcd189801c512244b7e
         with:
           args: yarn
@@ -51,7 +47,7 @@ jobs:
 As a [Docker container][dockerUrl]:
 
 ```console
-docker pull ianwalter/puppeteer:3.0.2
+docker pull ianwalter/puppeteer:4.0.0
 ```
 
 ## Related
