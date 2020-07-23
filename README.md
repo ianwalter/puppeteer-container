@@ -35,11 +35,11 @@ jobs:
         # NOTE: this pins the action to a specific commit sha for security
         # reasons but you can also use a version tag if desired. For example:
         # ianwalter/puppeteer-container@v4.0.0
-        uses: ianwalter/puppeteer-container@a41ba81d6c2a033597513fcd189801c512244b7e
+        uses: ianwalter/puppeteer-container@acc52cd2334ad9eaf6e1974562d263e0a711b7e8
         with:
           args: yarn
       - name: Test
-        uses: ianwalter/puppeteer-container@a41ba81d6c2a033597513fcd189801c512244b7e
+        uses: ianwalter/puppeteer-container@acc52cd2334ad9eaf6e1974562d263e0a711b7e8
         with:
           args: yarn test
 ```
