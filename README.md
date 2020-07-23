@@ -69,4 +69,5 @@ Created by [Ian Walter](https://ianwalter.dev)
 [actionsUrl]: https://github.com/features/actions
 [dockerUrl]: https://hub.docker.com/r/ianwalter/puppeteer
 [bffUrl]: https://github.com/ianwalter/bff
+[playwrightUrl]: https://github.com/ianwalter/playwright-container
 [licenseUrl]: https://github.com/ianwalter/puppeteer-container/blob/master/LICENSE
