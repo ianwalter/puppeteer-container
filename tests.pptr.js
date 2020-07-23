@@ -1,9 +1,9 @@
 import { test } from '@ianwalter/bff-puppeteer'
 
-test('click handler', ({ expect }) => {
+test('click handler', t => {
   let testValue = 'foo'
   const a = document.createElement('a')
   a.onclick = () => (testValue = 'bar')
   a.click()
-  expect(testValue).toBe('bar')
+  t.expect(testValue).toBe('bar')
 })
