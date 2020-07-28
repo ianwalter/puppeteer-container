@@ -52,7 +52,7 @@ docker pull ianwalter/puppeteer:v4.0.0
 
 ## Related
 
-* [`@ianwalter/bff`][bffUrl] - Your friendly test runner/framework
+* [`@ianwalter/bff`][bffUrl] - Your friendly test framework
 * [`ianwalter/playwright-container`][playwrightUrl] - A GitHub Action / Docker
   image for Playwright, the browser automation library
 
