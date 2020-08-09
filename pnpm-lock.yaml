@@ -3,7 +3,7 @@ devDependencies:
   '@ianwalter/bff': 9.10.0
   '@ianwalter/bff-puppeteer': 3.0.1
   '@ianwalter/eslint-config': 5.3.0
-  '@ianwalter/renovate-config': 1.3.0
+  '@ianwalter/renovate-config': 1.4.0
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.4:
@@ -408,10 +408,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-i8wUEyEa9BZMbzhFHJ29CEjzZXBvu0ckjWkVZOuUOE96LkA3jI1vWtHD+EHzIK/r54STjUGKAp3EyeiEhK4e+w==
-  /@ianwalter/renovate-config/1.3.0:
+  /@ianwalter/renovate-config/1.4.0:
     dev: true
     resolution:
-      integrity: sha512-J6xH9Lnm9TxqtZIO/cWFT1ziykPN3HlcMeJmUyiOHB0ol4DYJJPM/6/LSbEydU7iUGK5DxobWLAHoKC4j7RcLg==
+      integrity: sha512-zmHUJ06LbexUu1ARDxf9bnZuFCBsHiC+VVOFOy4G2TR9svg8YTP9m4dm+EYr9EXca/eqgwWHpLRxspYkxthfAw==
   /@ianwalter/sleep/0.0.1:
     dev: true
     resolution:
@@ -6478,4 +6478,4 @@ specifiers:
   '@ianwalter/bff': ^9.9.1
   '@ianwalter/bff-puppeteer': ^3.0.1
   '@ianwalter/eslint-config': ^5.3.0
-  '@ianwalter/renovate-config': ^1.3.0
+  '@ianwalter/renovate-config': ^1.4.0
