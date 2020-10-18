@@ -1,6 +1,6 @@
 devDependencies:
   '@changesets/cli': 2.11.1
-  '@ianwalter/bff': 9.12.0
+  '@ianwalter/bff': 9.12.1
   '@ianwalter/bff-puppeteer': 3.0.1
   '@ianwalter/eslint-config': 5.4.0
   '@ianwalter/renovate-config': 1.4.1
@@ -338,7 +338,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-zwKPlA0HgAB9KMfkuaQLN/wrwVZaG67tVY1ZJUy651JJWDStyuQ1T19FHPA29lz0OOTEOAPOn8EwM3yyk3o4dQ==
-  /@ianwalter/bff/9.12.0:
+  /@ianwalter/bff/9.12.1:
     dependencies:
       '@generates/logger': 0.0.8
       '@ianwalter/cli': 4.1.0
@@ -361,7 +361,7 @@ packages:
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-34JY9MW3plMHQGnxcIOBKIynROXP14IyV4LLZmleVdGRUjRvmyE3rrIpnOSzrgWJ7ApOWA1PmbOTGadSrCXcrg==
+      integrity: sha512-bF+etehzUFNaWiKKDg2HGPYNZnCXyZJVLlp42ZfIQ4Atd9yLl7p1r2Bh0dsBYdttPpm7z5LM/AAd1iv9ys7RcQ==
   /@ianwalter/bff/9.8.2:
     dependencies:
       '@ianwalter/cli': 4.1.0
@@ -6616,7 +6616,7 @@ packages:
       integrity: sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
 specifiers:
   '@changesets/cli': ^2.11.1
-  '@ianwalter/bff': ^9.12.0
+  '@ianwalter/bff': ^9.12.1
   '@ianwalter/bff-puppeteer': ^3.0.1
   '@ianwalter/eslint-config': ^5.4.0
   '@ianwalter/renovate-config': ^1.4.1
