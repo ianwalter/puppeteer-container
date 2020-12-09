@@ -2,7 +2,7 @@ devDependencies:
   '@changesets/cli': 2.12.0
   '@ianwalter/bff': 9.12.3
   '@ianwalter/bff-puppeteer': 3.0.1
-  '@ianwalter/eslint-config': 6.0.0
+  '@ianwalter/eslint-config': 6.1.0
   '@ianwalter/renovate-config': 1.4.2
 lockfileVersion: 5.2
 packages:
@@ -224,11 +224,11 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-v9kIhKwjeZThiWrLmj0y17CWoyddASLj9O2yvbZkbvw/N3rWOYy9zkV66ursAoVr0mV15bL8g0c4QZUE6cdDoQ==
-  /@eslint/eslintrc/0.2.1:
+  /@eslint/eslintrc/0.2.2:
     dependencies:
       ajv: 6.12.5
       debug: 4.1.1
-      espree: 7.3.0
+      espree: 7.3.1
       globals: 12.4.0
       ignore: 4.0.6
       import-fresh: 3.2.1
@@ -240,7 +240,7 @@ packages:
     engines:
       node: ^10.12.0 || >=12.0.0
     resolution:
-      integrity: sha512-XRUeBZ5zBWLYgSANMpThFddrZZkEbGHgUdt5UJjZfnlN9BGCiUBrf+nvbRupSjMvqzwnQN0qwCmOxITt1cfywA==
+      integrity: sha512-EfB5OHNYp1F4px/LI/FEnGylop7nOqkQ1LRzCM0KccA2U8tvV8w01KBv37LbO7nW4H+YhKyo2LcJhRwjjV17QQ==
   /@generates/cli/0.0.6:
     dependencies:
       '@generates/logger': 0.0.6
@@ -431,18 +431,18 @@ packages:
     dev: true
     resolution:
       integrity: sha512-bq6q4ZXWzQfBbE29i6trTwAtmmRzSWU0D/fSPhA/tDNbxhSlXDYUxfITtq1cctqi+s4BV4PgYIjxNkLeePK1mQ==
-  /@ianwalter/eslint-config/6.0.0:
+  /@ianwalter/eslint-config/6.1.0:
     dependencies:
-      eslint: 7.14.0
-      eslint-config-standard: 16.0.2_7bea054c5749eecfd6aed0d188d7fbf5
+      eslint: 7.15.0
+      eslint-config-standard: 16.0.2_0529347e2fd2c84141655e29ba29f485
       eslint-plugin-html: 6.1.1
-      eslint-plugin-import: 2.22.1_eslint@7.14.0
-      eslint-plugin-node: 11.1.0_eslint@7.14.0
+      eslint-plugin-import: 2.22.1_eslint@7.15.0
+      eslint-plugin-node: 11.1.0_eslint@7.15.0
       eslint-plugin-promise: 4.2.1
-      eslint-plugin-standard: 4.1.0_eslint@7.14.0
+      eslint-plugin-standard: 4.1.0_eslint@7.15.0
     dev: true
     resolution:
-      integrity: sha512-VVgTX28GfuivTmD3whnAtTR7E+XX9aKoaJdBkuG0jiRK9r0qesTrvizfOF9vk2iQKSKM+3MWSB3A/w+VX7BsqQ==
+      integrity: sha512-BFL+c7ut5zuqeFd53rWHOGXr0eSveekuqmdkN1mOcTuyPzsOKi0XDbtPZuNCWL7D5sOznmIYFQdi5LPVSHogIA==
   /@ianwalter/log/4.0.0:
     dev: true
     resolution:
@@ -848,14 +848,14 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha512-Il80Qs2WjYlJIBNzNkK6KYqlVMTbZLXgHx2oT0pU/fjRHyEp+PEfEPY0R3WCwAGVOtauxh1hOxNgIf5bv7dQpA==
-  /acorn-jsx/5.2.0_acorn@7.4.1:
+  /acorn-jsx/5.3.1_acorn@7.4.1:
     dependencies:
       acorn: 7.4.1
     dev: true
     peerDependencies:
-      acorn: ^6.0.0 || ^7.0.0
+      acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
     resolution:
-      integrity: sha512-HiUX/+K2YpkpJ+SzBffkM/AQ2YE03S0U1kjTLVpoJdhZMOWy8qvXVN9JdLqv2QsaQ6MPYQIuNmwD8zOiYUofLQ==
+      integrity: sha512-K0Ptm/47OKfQRpNQ2J/oIN/3QYiK6FwW+eJbILhsdxh2WTLdl+30o8aGdTbm5JbffpFFAg/g+zi1E+jvJha5ng==
   /acorn/5.7.4:
     dev: true
     engines:
@@ -1919,6 +1919,7 @@ packages:
   /debug/4.1.1:
     dependencies:
       ms: 2.1.2
+    deprecated: 'Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)'
     dev: true
     resolution:
       integrity: sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
@@ -2289,11 +2290,11 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
-  /eslint-config-standard/16.0.2_7bea054c5749eecfd6aed0d188d7fbf5:
+  /eslint-config-standard/16.0.2_0529347e2fd2c84141655e29ba29f485:
     dependencies:
-      eslint: 7.14.0
-      eslint-plugin-import: 2.22.1_eslint@7.14.0
-      eslint-plugin-node: 11.1.0_eslint@7.14.0
+      eslint: 7.15.0
+      eslint-plugin-import: 2.22.1_eslint@7.15.0
+      eslint-plugin-node: 11.1.0_eslint@7.15.0
       eslint-plugin-promise: 4.2.1
     dev: true
     peerDependencies:
@@ -2306,7 +2307,7 @@ packages:
   /eslint-import-resolver-node/0.3.4:
     dependencies:
       debug: 2.6.9
-      resolve: 1.17.0
+      resolve: 1.19.0
     dev: true
     resolution:
       integrity: sha512-ogtf+5AB/O+nM6DIeBUNr2fuT7ot9Qg/1harBfBtaP13ekEWFQEEMP94BCB7zaNW3gyY+8SHYF00rnqYwXKWOA==
@@ -2319,9 +2320,9 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-6j9xxegbqe8/kZY8cYpcp0xhbK0EgJlg3g9mib3/miLaExuuwc3n5UEfSnU6hWMbT0FAYVvDbL9RrRgpUeQIvA==
-  /eslint-plugin-es/3.0.1_eslint@7.14.0:
+  /eslint-plugin-es/3.0.1_eslint@7.15.0:
     dependencies:
-      eslint: 7.14.0
+      eslint: 7.15.0
       eslint-utils: 2.1.0
       regexpp: 3.1.0
     dev: true
@@ -2337,21 +2338,21 @@ packages:
     dev: true
     resolution:
       integrity: sha512-JSe3ZDb7feKMnQM27XWGeoIjvP4oWQMJD9GZ6wW67J7/plVL87NK72RBwlvfc3tTZiYUchHhxAwtgEd1GdofDA==
-  /eslint-plugin-import/2.22.1_eslint@7.14.0:
+  /eslint-plugin-import/2.22.1_eslint@7.15.0:
     dependencies:
       array-includes: 3.1.1
       array.prototype.flat: 1.2.3
       contains-path: 0.1.0
       debug: 2.6.9
       doctrine: 1.5.0
-      eslint: 7.14.0
+      eslint: 7.15.0
       eslint-import-resolver-node: 0.3.4
       eslint-module-utils: 2.6.0
       has: 1.0.3
       minimatch: 3.0.4
       object.values: 1.1.1
       read-pkg-up: 2.0.0
-      resolve: 1.17.0
+      resolve: 1.19.0
       tsconfig-paths: 3.9.0
     dev: true
     engines:
@@ -2360,14 +2361,14 @@ packages:
       eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0
     resolution:
       integrity: sha512-8K7JjINHOpH64ozkAhpT3sd+FswIZTfMZTjdx052pnWrgRCVfp8op9tbjpAk3DdUeI/Ba4C8OjdC0r90erHEOw==
-  /eslint-plugin-node/11.1.0_eslint@7.14.0:
+  /eslint-plugin-node/11.1.0_eslint@7.15.0:
     dependencies:
-      eslint: 7.14.0
-      eslint-plugin-es: 3.0.1_eslint@7.14.0
+      eslint: 7.15.0
+      eslint-plugin-es: 3.0.1_eslint@7.15.0
       eslint-utils: 2.1.0
       ignore: 5.1.8
       minimatch: 3.0.4
-      resolve: 1.17.0
+      resolve: 1.19.0
       semver: 6.3.0
     dev: true
     engines:
@@ -2382,9 +2383,9 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-VoM09vT7bfA7D+upt+FjeBO5eHIJQBUWki1aPvB+vbNiHS3+oGIJGIeyBtKQTME6UPXXy3vV07OL1tHd3ANuDw==
-  /eslint-plugin-standard/4.1.0_eslint@7.14.0:
+  /eslint-plugin-standard/4.1.0_eslint@7.15.0:
     dependencies:
-      eslint: 7.14.0
+      eslint: 7.15.0
     dev: true
     peerDependencies:
       eslint: '>=5.0.0'
@@ -2428,10 +2429,10 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
-  /eslint/7.14.0:
+  /eslint/7.15.0:
     dependencies:
       '@babel/code-frame': 7.10.4
-      '@eslint/eslintrc': 0.2.1
+      '@eslint/eslintrc': 0.2.2
       ajv: 6.12.5
       chalk: 4.1.0
       cross-spawn: 7.0.3
@@ -2441,10 +2442,10 @@ packages:
       eslint-scope: 5.1.1
       eslint-utils: 2.1.0
       eslint-visitor-keys: 2.0.0
-      espree: 7.3.0
+      espree: 7.3.1
       esquery: 1.3.1
       esutils: 2.0.3
-      file-entry-cache: 5.0.1
+      file-entry-cache: 6.0.0
       functional-red-black-tree: 1.0.1
       glob-parent: 5.1.1
       globals: 12.4.0
@@ -2472,17 +2473,17 @@ packages:
       node: ^10.12.0 || >=12.0.0
     hasBin: true
     resolution:
-      integrity: sha512-5YubdnPXrlrYAFCKybPuHIAH++PINe1pmKNc5wQRB9HSbqIK1ywAnntE3Wwua4giKu0bjligf1gLF6qxMGOYRA==
-  /espree/7.3.0:
+      integrity: sha512-Vr64xFDT8w30wFll643e7cGrIkPEU50yIiI36OdSIDoSGguIeaLzBo0vpGvzo9RECUqq7htURfwEtKqwytkqzA==
+  /espree/7.3.1:
     dependencies:
       acorn: 7.4.1
-      acorn-jsx: 5.2.0_acorn@7.4.1
+      acorn-jsx: 5.3.1_acorn@7.4.1
       eslint-visitor-keys: 1.3.0
     dev: true
     engines:
       node: ^10.12.0 || >=12.0.0
     resolution:
-      integrity: sha512-dksIWsvKCixn1yrEXO8UosNSxaDoSYpq9reEjZSbHLpT5hpaCAKTLBwq0RHtLrIr+c0ByiYzWT8KTMRzoRCNlw==
+      integrity: sha512-v3JCNCE64umkFpmkFGqzVKsOT0tN1Zr+ueqLZfpV1Ob8e+CEgPWa+OxCoGH3tnhimMKIaBm4m/vaRpJ/krRz2g==
   /esprima/4.0.1:
     dev: true
     engines:
@@ -2770,14 +2771,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-0btnI/H8f2pavGMN8w40mlSKOfTK2SVJmBfBeVIj3kNw0swwgzyRq0d5TJVOwodFmtvpPeWPN/MCcfuWF0Ezbw==
-  /file-entry-cache/5.0.1:
+  /file-entry-cache/6.0.0:
     dependencies:
-      flat-cache: 2.0.1
+      flat-cache: 3.0.4
     dev: true
     engines:
-      node: '>=4'
+      node: ^10.12.0 || >=12.0.0
     resolution:
-      integrity: sha512-bCg29ictuBaKUwwArK4ouCaqDgLZcysCFLmM/Yn/FDoqndh/9vNuQfXRDvTuXKLxfD/JtZQGKFT8MGcJBK644g==
+      integrity: sha512-fqoO76jZ3ZnYrXLDRxBR1YvOvc0k844kcOg40bgsPrE25LAb/PDqTY+ho64Xh2c8ZXgIKldchCFHczG2UVRcWA==
   /file-uri-to-path/1.0.0:
     dev: true
     optional: true
@@ -2858,20 +2859,19 @@ packages:
     dev: true
     resolution:
       integrity: sha512-hr6hb1w8ePMpPVUK39S4RlwJzi+xPLuVuG8XlwXU3KD5Yn3qgBWVfy3AzNlDhWvE1EORCE65/Qm26rFQt3VLVA==
-  /flat-cache/2.0.1:
+  /flat-cache/3.0.4:
     dependencies:
-      flatted: 2.0.2
-      rimraf: 2.6.3
-      write: 1.0.3
+      flatted: 3.1.0
+      rimraf: 3.0.2
     dev: true
     engines:
-      node: '>=4'
+      node: ^10.12.0 || >=12.0.0
     resolution:
-      integrity: sha512-LoQe6yDuUMDzQAEH8sgmh4Md6oZnc/7PjtwjNFSzveXqSHt6ka9fPBuso7IGf9Rz4uqnSnWiFH2B/zj24a5ReA==
-  /flatted/2.0.2:
+      integrity: sha512-dm9s5Pw7Jc0GvMYbshN6zchCA9RgQlzzEZX3vylR9IqFfS8XciblUXOKfW6SiuJ0e13eDYZoZV5wdrev7P3Nwg==
+  /flatted/3.1.0:
     dev: true
     resolution:
-      integrity: sha512-r5wGx7YeOwNWNlCA0wQ86zKyDLMQr+/RB8xy74M4hTphfmjlijTSSXGuH8rnvKZnfT9i+75zmd8jcKdMR4O6jA==
+      integrity: sha512-tW+UkmtNg/jv9CSofAKvgVcO7c2URjhTdW1ZTkcAritblu8tajiYy7YisnIflEwtKssCtOxpnBRoCB7iap0/TA==
   /flush-write-stream/1.1.1:
     dependencies:
       inherits: 2.0.4
@@ -4505,7 +4505,7 @@ packages:
   /normalize-package-data/2.5.0:
     dependencies:
       hosted-git-info: 2.8.8
-      resolve: 1.17.0
+      resolve: 1.19.0
       semver: 5.7.1
       validate-npm-package-license: 3.0.4
     dev: true
@@ -5379,13 +5379,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
-  /rimraf/2.6.3:
-    dependencies:
-      glob: 7.1.6
-    dev: true
-    hasBin: true
-    resolution:
-      integrity: sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==
   /rimraf/2.7.1:
     dependencies:
       glob: 7.1.6
@@ -6514,14 +6507,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
-  /write/1.0.3:
-    dependencies:
-      mkdirp: 0.5.5
-    dev: true
-    engines:
-      node: '>=4'
-    resolution:
-      integrity: sha512-/lg70HAjtkUgWPVZhZcm+T4hkL8Zbtp1nFNOn3lRrxnlv50SRBv7cR7RqR+GMsd3hUXy9hWBo4CHTbFTcOYwig==
   /ws/3.3.3:
     dependencies:
       async-limiter: 1.0.1
@@ -6624,5 +6609,5 @@ specifiers:
   '@changesets/cli': ^2.12.0
   '@ianwalter/bff': ^9.12.3
   '@ianwalter/bff-puppeteer': ^3.0.1
-  '@ianwalter/eslint-config': ^6.0.0
+  '@ianwalter/eslint-config': ^6.1.0
   '@ianwalter/renovate-config': ^1.4.2
