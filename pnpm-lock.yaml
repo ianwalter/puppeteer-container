@@ -1,6 +1,6 @@
 devDependencies:
   '@changesets/cli': 2.12.0
-  '@ianwalter/bff': 10.0.0
+  '@ianwalter/bff': 10.0.1
   '@ianwalter/bff-puppeteer': 3.0.1
   '@ianwalter/eslint-config': 6.2.0
   '@ianwalter/renovate-config': 1.4.2
@@ -48,7 +48,7 @@ packages:
   /@babel/types/7.12.10:
     dependencies:
       '@babel/helper-validator-identifier': 7.10.4
-      lodash: 4.17.19
+      lodash: 4.17.20
       to-fast-properties: 2.0.0
     dev: true
     resolution:
@@ -252,7 +252,7 @@ packages:
   /@generates/cli/0.0.9:
     dependencies:
       '@generates/logger': 0.0.9
-      '@generates/merger': 0.1.1
+      '@generates/merger': 0.1.2
       '@ianwalter/dot': 1.0.4
       camelcase: 6.1.0
       common-tags: 1.8.0
@@ -265,7 +265,7 @@ packages:
   /@generates/logger/0.0.9:
     dependencies:
       '@generates/cli': 0.0.9
-      '@generates/merger': 0.1.1
+      '@generates/merger': 0.1.2
       '@ianwalter/chromafi': 1.0.1
       '@ianwalter/clone': 6.0.1
       '@ianwalter/cloneable': 2.0.0
@@ -280,10 +280,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-SzWqUUO2ugHSVFW0UoH1dovSCIsP8BHNx1iRqQ/ZnsUDh1t0logrVH9nqWFpR10ey629uIDPq0Ut/43G3P8tZQ==
-  /@generates/merger/0.1.1:
+  /@generates/merger/0.1.2:
     dev: true
     resolution:
-      integrity: sha512-jlO57SAsyw3sI7fpgHLzx7CdpklW4hciHoILR0lylj0WlMBD1PpRfULeqfiWjUV5NxGuhrxQqZ4vrPteKEZKNg==
+      integrity: sha512-t1Mi5mtIwCbcKxqZ5v+7Ds570gwTfo5vAXr0Q3naaMxfnCc6CychGHh/GyF6nK3qYIxh9BJhThVTiCfN+ukMuQ==
   /@ianwalter/bff-puppeteer/3.0.1:
     dependencies:
       '@ianwalter/bff': 9.8.2
@@ -297,10 +297,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-zwKPlA0HgAB9KMfkuaQLN/wrwVZaG67tVY1ZJUy651JJWDStyuQ1T19FHPA29lz0OOTEOAPOn8EwM3yyk3o4dQ==
-  /@ianwalter/bff/10.0.0:
+  /@ianwalter/bff/10.0.1:
     dependencies:
       '@generates/logger': 0.0.9
-      '@generates/merger': 0.1.1
+      '@generates/merger': 0.1.2
       '@ianwalter/cli': 4.1.0
       '@ianwalter/clone': 6.0.1
       '@ianwalter/cloneable': 2.0.0
@@ -321,7 +321,7 @@ packages:
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-hOqX9ymgQxls39zwuGfIJ5/OTqM50vmtYP7jsDtWf0+Yk/mlA2swE79T6QRtbtlpcoZziZk1uZV3XOkc0Gritw==
+      integrity: sha512-XYwJSBgaFyIzqx9o7gf1s/LcEL/iUhIWwwPqAAjFbPrBf/N86c6kFksZWE6KlTxGrxNgWpu4bJPD7x0lztx8oQ==
   /@ianwalter/bff/9.8.2:
     dependencies:
       '@ianwalter/cli': 4.1.0
@@ -1492,7 +1492,7 @@ packages:
       dom-serializer: 0.1.1
       entities: 1.1.2
       htmlparser2: 3.10.1
-      lodash: 4.17.19
+      lodash: 4.17.20
       parse5: 3.0.3
     dev: true
     engines:
@@ -2934,6 +2934,7 @@ packages:
     resolution:
       integrity: sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==
   /fsevents/2.1.3:
+    deprecated: Please update to v 2.2.x
     dev: true
     engines:
       node: ^8.16.0 || ^10.6.0 || >=11.0.0
@@ -3896,7 +3897,7 @@ packages:
   /junit-report-builder/2.1.0:
     dependencies:
       date-format: 0.0.2
-      lodash: 4.17.19
+      lodash: 4.17.20
       make-dir: 1.3.0
       xmlbuilder: 10.1.1
     dev: true
@@ -6569,7 +6570,7 @@ packages:
       integrity: sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
 specifiers:
   '@changesets/cli': ^2.12.0
-  '@ianwalter/bff': ^10.0.0
+  '@ianwalter/bff': ^10.0.1
   '@ianwalter/bff-puppeteer': ^3.0.1
   '@ianwalter/eslint-config': ^6.2.0
   '@ianwalter/renovate-config': ^1.4.2
