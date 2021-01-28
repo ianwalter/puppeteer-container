@@ -1,5 +1,5 @@
 devDependencies:
-  '@changesets/cli': 2.13.1
+  '@changesets/cli': 2.14.0
   '@ianwalter/bff': 10.0.2
   '@ianwalter/bff-puppeteer': 3.0.1
   '@ianwalter/eslint-config': 6.2.0
@@ -53,14 +53,15 @@ packages:
     dev: true
     resolution:
       integrity: sha512-sf6wboJV5mGyip2hIpDSKsr80RszPinEFjsHTalMxZAZkoQ2/2yQzxlcFN52SJqsyPfLtPmenL4g2KB3KJXPDw==
-  /@changesets/apply-release-plan/4.0.0:
+  /@changesets/apply-release-plan/4.2.0:
     dependencies:
       '@babel/runtime': 7.10.5
-      '@changesets/config': 1.4.0
+      '@changesets/config': 1.5.0
       '@changesets/get-version-range-type': 0.3.2
       '@changesets/git': 1.1.0
-      '@changesets/types': 3.2.0
+      '@changesets/types': 3.3.0
       '@manypkg/get-packages': 1.1.0
+      detect-indent: 6.0.0
       fs-extra: 7.0.1
       lodash.startcase: 4.4.0
       outdent: 0.5.0
@@ -69,32 +70,32 @@ packages:
       semver: 5.7.1
     dev: true
     resolution:
-      integrity: sha512-MrcUd8wIlQ4S/PznzqJVsmnEpUGfPEkCGF54iqt8G05GEqi/zuxpoTfebcScpj5zeiDyxFIcA9RbeZ3pvJJxoA==
-  /@changesets/assemble-release-plan/4.0.0:
+      integrity: sha512-/vt6UwgQldhOw93Gb8llI5OuYGlJt2+U45AfcXsoxzl8gZzCmChGm3vUaQJYbmtL8TbL8OOVXHRIKJJidMNPKw==
+  /@changesets/assemble-release-plan/4.1.0:
     dependencies:
       '@babel/runtime': 7.10.5
       '@changesets/errors': 0.1.4
-      '@changesets/get-dependents-graph': 1.1.3
-      '@changesets/types': 3.2.0
+      '@changesets/get-dependents-graph': 1.2.0
+      '@changesets/types': 3.3.0
       '@manypkg/get-packages': 1.1.0
       semver: 5.7.1
     dev: true
     resolution:
-      integrity: sha512-3Kv21FNvysTQvZs3fHr6aZeDibhZHtgI1++fMZplzVtwNVmpjow3zv9lcZmJP26LthbpVH3I8+nqlU7M43lfWA==
-  /@changesets/cli/2.13.1:
+      integrity: sha512-dMqe2L5Pn4UGTW89kOuuCuZD3pQFZj1Sxv92ZW4S98sXGsxcb2PdW+PeHbQ7tawkCYCOvzhXxAlN4OdF2DlDKQ==
+  /@changesets/cli/2.14.0:
     dependencies:
       '@babel/runtime': 7.10.5
-      '@changesets/apply-release-plan': 4.0.0
-      '@changesets/assemble-release-plan': 4.0.0
-      '@changesets/config': 1.4.0
+      '@changesets/apply-release-plan': 4.2.0
+      '@changesets/assemble-release-plan': 4.1.0
+      '@changesets/config': 1.5.0
       '@changesets/errors': 0.1.4
-      '@changesets/get-dependents-graph': 1.1.3
+      '@changesets/get-dependents-graph': 1.2.0
       '@changesets/get-release-plan': 2.0.1
       '@changesets/git': 1.1.0
       '@changesets/logger': 0.0.5
       '@changesets/pre': 1.0.5
       '@changesets/read': 0.4.6
-      '@changesets/types': 3.2.0
+      '@changesets/types': 3.3.0
       '@changesets/write': 0.1.3
       '@manypkg/get-packages': 1.1.0
       '@types/semver': 6.2.1
@@ -116,43 +117,43 @@ packages:
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-pG8/X57tD60WGVN9zFN190GktXXF3O4e1ApWPAtDNLh7A3ccgl8QaOg2npOARmkr4lBOPJHLjUILd8Z+u4B7+Q==
-  /@changesets/config/1.4.0:
+      integrity: sha512-rbQMRDXl1cXOglnjUvYyrFLlYBbS0YZdfxZfW3ZbGLzLoS4n50+B9fLSE9oW20hQuL3zAnyLyacb9cwNhF2lig==
+  /@changesets/config/1.5.0:
     dependencies:
       '@changesets/errors': 0.1.4
-      '@changesets/get-dependents-graph': 1.1.3
+      '@changesets/get-dependents-graph': 1.2.0
       '@changesets/logger': 0.0.5
-      '@changesets/types': 3.2.0
+      '@changesets/types': 3.3.0
       '@manypkg/get-packages': 1.1.0
       fs-extra: 7.0.1
       micromatch: 4.0.2
     dev: true
     resolution:
-      integrity: sha512-eoTOcJ6py7jBDY8rUXwEGxR5UtvUX+p//0NhkVpPGcnvIeITHq+DOIsuWyGzWcb+1FaYkof3CCr32/komZTu4Q==
+      integrity: sha512-Bl9nLVYcwFCpd9jpzcOsExZk1NuTYX20D2YWHCdS1xll3W0yOdSUlWLUCCfugN1l3+yTR6iDW6q9o6vpCevWvA==
   /@changesets/errors/0.1.4:
     dependencies:
       extendable-error: 0.1.7
     dev: true
     resolution:
       integrity: sha512-HAcqPF7snsUJ/QzkWoKfRfXushHTu+K5KZLJWPb34s4eCZShIf8BFO3fwq6KU8+G7L5KdtN2BzQAXOSXEyiY9Q==
-  /@changesets/get-dependents-graph/1.1.3:
+  /@changesets/get-dependents-graph/1.2.0:
     dependencies:
-      '@changesets/types': 3.2.0
+      '@changesets/types': 3.3.0
       '@manypkg/get-packages': 1.1.0
       chalk: 2.4.2
       fs-extra: 7.0.1
       semver: 5.7.1
     dev: true
     resolution:
-      integrity: sha512-cTbySXwSv9yWp4Pp5R/b5Qv23wJgFaFCqUbsI3IJ2pyPl0vMaODAZS8NI1nNK2XSxGIg1tw+dWNSR4PlrKBSVQ==
+      integrity: sha512-96NInEKpEZH8KvmXyh42PynXVAdq3kQ9VjAeswHtJ3umUCeTF42b/KVXaov+5P1RNnaUVtRuEwzs4syGuowDTw==
   /@changesets/get-release-plan/2.0.1:
     dependencies:
       '@babel/runtime': 7.10.5
-      '@changesets/assemble-release-plan': 4.0.0
-      '@changesets/config': 1.4.0
+      '@changesets/assemble-release-plan': 4.1.0
+      '@changesets/config': 1.5.0
       '@changesets/pre': 1.0.5
       '@changesets/read': 0.4.6
-      '@changesets/types': 3.2.0
+      '@changesets/types': 3.3.0
       '@manypkg/get-packages': 1.1.0
     dev: true
     resolution:
@@ -165,7 +166,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.10.5
       '@changesets/errors': 0.1.4
-      '@changesets/types': 3.2.0
+      '@changesets/types': 3.3.0
       '@manypkg/get-packages': 1.1.0
       is-subdir: 1.1.1
       spawndamnit: 2.0.0
@@ -180,7 +181,7 @@ packages:
       integrity: sha512-gJyZHomu8nASHpaANzc6bkQMO9gU/ib20lqew1rVx753FOxffnCrJlGIeQVxNWCqM+o6OOleCo/ivL8UAO5iFw==
   /@changesets/parse/0.3.6:
     dependencies:
-      '@changesets/types': 3.2.0
+      '@changesets/types': 3.3.0
       js-yaml: 3.14.0
     dev: true
     resolution:
@@ -189,7 +190,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.10.5
       '@changesets/errors': 0.1.4
-      '@changesets/types': 3.2.0
+      '@changesets/types': 3.3.0
       '@manypkg/get-packages': 1.1.0
       fs-extra: 7.0.1
     dev: true
@@ -201,21 +202,21 @@ packages:
       '@changesets/git': 1.1.0
       '@changesets/logger': 0.0.5
       '@changesets/parse': 0.3.6
-      '@changesets/types': 3.2.0
+      '@changesets/types': 3.3.0
       chalk: 2.4.2
       fs-extra: 7.0.1
       p-filter: 2.1.0
     dev: true
     resolution:
       integrity: sha512-rOd8dsF/Lgyy2SYlDalb3Ts/meDI2AcKPXYhSXIW3k6+ZLlj6Pt+nmgV5Ut8euyH7loibklNTDemfvMffF4xig==
-  /@changesets/types/3.2.0:
+  /@changesets/types/3.3.0:
     dev: true
     resolution:
-      integrity: sha512-rAmPtOyXpisEEE25CchKNUAf2ApyAeuZ/h78YDoqKZaCk5tUD0lgYZGPIRV9WTPoqNjJULIym37ogc6pkax5jg==
+      integrity: sha512-rJamRo+OD/MQekImfIk07JZwYSB18iU6fYL8xOg0gfAiTh1a1+OlR1fPIxm55I7RsWw812is2YcPPwXdIewrhA==
   /@changesets/write/0.1.3:
     dependencies:
       '@babel/runtime': 7.10.5
-      '@changesets/types': 3.2.0
+      '@changesets/types': 3.3.0
       fs-extra: 7.0.1
       human-id: 1.0.2
       prettier: 1.19.1
@@ -1991,6 +1992,12 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-OHHMCmoALow+Wzz38zYmRnXwa50=
+  /detect-indent/6.0.0:
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-oSyFlqaTHCItVRGK5RmrmjB+CmaMOW7IaNA/kdxqhoa6d17j/5ce9O9eWXmV/KEdRwqpQA+Vqe8a8Bsybu4YnA==
   /diff-sequences/25.2.6:
     dev: true
     engines:
@@ -6569,7 +6576,7 @@ packages:
     resolution:
       integrity: sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
 specifiers:
-  '@changesets/cli': ^2.13.1
+  '@changesets/cli': ^2.14.0
   '@ianwalter/bff': ^10.0.2
   '@ianwalter/bff-puppeteer': ^3.0.1
   '@ianwalter/eslint-config': ^6.2.0
