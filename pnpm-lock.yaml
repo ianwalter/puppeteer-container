@@ -1,6 +1,6 @@
 devDependencies:
   '@changesets/cli': 2.14.0
-  '@ianwalter/bff': 10.0.2
+  '@ianwalter/bff': 10.0.4
   '@ianwalter/bff-puppeteer': 3.0.1
   '@ianwalter/eslint-config': 6.2.0
   '@ianwalter/renovate-config': 1.4.3
@@ -302,7 +302,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-zwKPlA0HgAB9KMfkuaQLN/wrwVZaG67tVY1ZJUy651JJWDStyuQ1T19FHPA29lz0OOTEOAPOn8EwM3yyk3o4dQ==
-  /@ianwalter/bff/10.0.2:
+  /@ianwalter/bff/10.0.4:
     dependencies:
       '@generates/logger': 0.1.0
       '@generates/merger': 0.1.3
@@ -318,15 +318,15 @@ packages:
       common-tags: 1.8.0
       esm-to-cjs: 1.2.0
       expect: 26.6.2
+      glob: 7.1.6
       jest-snapshot: 26.6.2
       junit-report-builder: 2.1.0
       p-series: 2.1.0
-      tiny-glob: 0.2.8
       workerpool: 6.0.4
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-LuJDta90/ilDf4cNrsFkRzyVt5sqVxNKhwSPl+6PzSfBBZPHzHEoXmVE6CQjUoZQOcvfiox7a0e65uU0TsWBBw==
+      integrity: sha512-qkO1/nGSBXE3S4DxMz4zzv86PPQh+nyGGDgSIT16s8xMEexCuz6gc/wEzh+DBJNV0Of8NwP5lW/7SuDOqw0mBw==
   /@ianwalter/bff/9.8.2:
     dependencies:
       '@ianwalter/cli': 4.1.0
@@ -3035,10 +3035,6 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-BWICuzzDvDoH54NHKCseDanAhE3CeDorgDL5MT6LMXXj2WCnd9UC2szdk4AWLfjdgNBCXLUanXYcpBBKOSWGwg==
-  /globalyzer/0.1.0:
-    dev: true
-    resolution:
-      integrity: sha512-40oNTM9UfG6aBmuKxk/giHn5nQ8RVz/SS4Ir6zgzOv9/qC3kKZ9v4etGTcJbEl/NyVQH7FGU7d+X1egr57Md2Q==
   /globby/11.0.1:
     dependencies:
       array-union: 2.1.0
@@ -3052,10 +3048,6 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-iH9RmgwCmUJHi2z5o2l3eTtGBtXek1OYlHrbcxOYugyHLmAsZrPj43OtHThd62Buh/Vv6VyCBD2bdyWcGNQqoQ==
-  /globrex/0.1.2:
-    dev: true
-    resolution:
-      integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==
   /graceful-fs/4.2.4:
     dev: true
     resolution:
@@ -6025,13 +6017,6 @@ packages:
       node: '>=0.6.0'
     resolution:
       integrity: sha512-60aV6sgJ5YEbzUdn9c8kYGIqOubPoUdqQCul3SBAsRCZ40s6Y5cMcrW4dt3/k/EsbLVJNl9n6Vz3fTc+k2GeKQ==
-  /tiny-glob/0.2.8:
-    dependencies:
-      globalyzer: 0.1.0
-      globrex: 0.1.2
-    dev: true
-    resolution:
-      integrity: sha512-vkQP7qOslq63XRX9kMswlby99kyO5OvKptw7AMwBVMjXEI7Tb61eoI5DydyEMOseyGS5anDN1VPoVxEvH01q8w==
   /tmp/0.0.33:
     dependencies:
       os-tmpdir: 1.0.2
@@ -6577,7 +6562,7 @@ packages:
       integrity: sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
 specifiers:
   '@changesets/cli': ^2.14.0
-  '@ianwalter/bff': ^10.0.2
+  '@ianwalter/bff': ^10.0.4
   '@ianwalter/bff-puppeteer': ^3.0.1
   '@ianwalter/eslint-config': ^6.2.0
   '@ianwalter/renovate-config': ^1.4.3
