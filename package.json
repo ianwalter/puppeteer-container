@@ -12,7 +12,7 @@
     "test": "bff"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.14.0",
+    "@changesets/cli": "^2.14.1",
     "@ianwalter/bff": "^10.0.5",
     "@ianwalter/bff-puppeteer": "^3.0.1",
     "@ianwalter/eslint-config": "^6.2.0",
