@@ -3,7 +3,7 @@ devDependencies:
   '@ianwalter/bff': 10.0.5
   '@ianwalter/bff-puppeteer': 3.0.1
   '@ianwalter/eslint-config': 6.2.0
-  '@ianwalter/renovate-config': 1.4.3
+  '@ianwalter/renovate-config': 1.4.4
 lockfileVersion: 5.2
 packages:
   /@assemblyscript/loader/0.10.1:
@@ -459,10 +459,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Gde6yLSVtYdNQ1Lm7fLvNYb+apIzYyr4uiXaXfvn08NYQf6pRgCfiCmV+uQOczzsfnU7yWleE0dYIP2ZkDXzag==
-  /@ianwalter/renovate-config/1.4.3:
+  /@ianwalter/renovate-config/1.4.4:
     dev: true
     resolution:
-      integrity: sha512-61InLaz89GLb3iTcRSL2Z+WtYnEIfzWJ7gy+R8ascdsRpARU8qwkBqmq6euw8OPxfHNbqtqEAiG1ljckFjVwsQ==
+      integrity: sha512-LJRn/jAwIrUWfH5gwibOsUVQeXJVnPhoML0Yybx4xKvowyIKY2nwzvXvR1xPa2zK4EH+EW7WeQ/+Z1vctp67XA==
   /@ianwalter/sleep/0.0.1:
     dev: true
     resolution:
@@ -6568,4 +6568,4 @@ specifiers:
   '@ianwalter/bff': ^10.0.5
   '@ianwalter/bff-puppeteer': ^3.0.1
   '@ianwalter/eslint-config': ^6.2.0
-  '@ianwalter/renovate-config': ^1.4.3
+  '@ianwalter/renovate-config': ^1.4.4
