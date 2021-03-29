@@ -1,4 +1,4 @@
-FROM ianwalter/pnpm:v1.3.0
+FROM ianwalter/pnpm:v1.4.0
 
 LABEL "com.github.actions.name"="Puppeteer Container"
 LABEL "com.github.actions.description"="A GitHub Action / Docker image for Puppeteer, the Headless Chrome Node API"
