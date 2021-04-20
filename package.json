@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.14.1",
-    "@ianwalter/bff": "^10.0.5",
+    "@ianwalter/bff": "^11.0.0",
     "@ianwalter/bff-puppeteer": "^3.0.1",
     "@ianwalter/eslint-config": "^6.2.0",
     "@ianwalter/renovate-config": "^1.4.4"
