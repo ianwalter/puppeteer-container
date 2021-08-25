@@ -19,7 +19,7 @@ jobs:
       - name: Install
         run: pnpm i --dev
       - name: Changesets
-        uses: changesets/action@bfeb9e077e6cf393e4c4ef17e2bbc75b308b4364
+        uses: changesets/action@c3d88279fd9abe11410de073005e34863f735b1c
         with:
           publish: pnpx changeset publish
         env:
