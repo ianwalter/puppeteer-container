@@ -37,11 +37,11 @@ jobs:
         # ianwalter/puppeteer-container@v4.0.0
         uses: ianwalter/puppeteer-container@acc52cd2334ad9eaf6e1974562d263e0a711b7e8
         with:
-          args: pnpm i
+          args: yarn
       - name: Test
         uses: ianwalter/puppeteer-container@acc52cd2334ad9eaf6e1974562d263e0a711b7e8
         with:
-          args: pnpm t
+          args: yarn test
 ```
 
 As a [Docker container][dockerUrl]:
