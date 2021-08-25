@@ -1,6 +1,18 @@
 # ianwalter/puppeteer-container
 > A GitHub Action / Docker image for Puppeteer, the Headless Chrome Node API
 
+## DEPRECATED
+
+Sorry, I've switched to Playwright and no longer use Puppeteer. You should be
+able to use [ianwalter/playwright-container][playwrightUrl] instead by setting
+environment variables like:
+
+- `PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true`
+- `PUPPETEER_EXECUTABLE_PATH=/opt/playwright-browsers/chromium-857950/chrome-linux/chrome`
+
+So that Puppeteer doesn't download Chromium and uses the existig binary in the
+image.
+
 ## About
 
 Forked from [buildkite/puppeteer][buildkiteUrl] and based on
